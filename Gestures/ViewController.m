@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "MovableView.h"
 
 @interface ViewController ()
+
+@property (strong, nonatomic) IBOutlet UIView *containerView;
 
 @end
 
@@ -16,14 +19,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)openView:(id)sender {
+    MovableView *movableView = [MovableView view];
+    CGSize containerSize = self.containerView.frame.size;
+    movableView.center = CGPointMake(containerSize.width / 2, containerSize.height / 2);
+    [self.containerView addSubview:movableView];
 }
-
 
 @end

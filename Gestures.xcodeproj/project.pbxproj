@@ -15,6 +15,7 @@
 		CE2273C11EFAA6770047C2FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2273BF1EFAA6770047C2FE /* LaunchScreen.storyboard */; };
 		CE2273CC1EFAA6770047C2FE /* GesturesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2273CB1EFAA6770047C2FE /* GesturesTests.m */; };
 		CE2273D71EFAA6770047C2FE /* GesturesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2273D61EFAA6770047C2FE /* GesturesUITests.m */; };
+		CE2273E61EFAAAAB0047C2FE /* MovableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2273E51EFAAAAB0047C2FE /* MovableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CE2273D21EFAA6770047C2FE /* GesturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2273D61EFAA6770047C2FE /* GesturesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesturesUITests.m; sourceTree = "<group>"; };
 		CE2273D81EFAA6770047C2FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2273E41EFAAAAB0047C2FE /* MovableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovableView.h; sourceTree = "<group>"; };
+		CE2273E51EFAAAAB0047C2FE /* MovableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				CE2273B71EFAA6760047C2FE /* ViewController.h */,
 				CE2273B81EFAA6760047C2FE /* ViewController.m */,
 				CE2273BA1EFAA6760047C2FE /* Main.storyboard */,
+				CE2273E41EFAAAAB0047C2FE /* MovableView.h */,
+				CE2273E51EFAAAAB0047C2FE /* MovableView.m */,
 				CE2273BD1EFAA6770047C2FE /* Assets.xcassets */,
 				CE2273BF1EFAA6770047C2FE /* LaunchScreen.storyboard */,
 				CE2273C21EFAA6770047C2FE /* Info.plist */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE2273B91EFAA6760047C2FE /* ViewController.m in Sources */,
+				CE2273E61EFAAAAB0047C2FE /* MovableView.m in Sources */,
 				CE2273B61EFAA6760047C2FE /* AppDelegate.m in Sources */,
 				CE2273B31EFAA6760047C2FE /* main.m in Sources */,
 			);
